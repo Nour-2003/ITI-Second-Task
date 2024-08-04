@@ -1,0 +1,30 @@
+<div class="py-2">
+  <div class="row bg-body-secondary">
+    <div
+      class="col-2 bg-body-secondary d-flex justify-content-center align-items-center"
+    >
+      <p
+        class="fs-5 text-dark"
+        style="
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        "
+      >
+        {{title}}
+      </p>
+    </div>
+    <div class="col-10">
+      <div class="progress" style="height: 40px;">
+        <div
+          class="progress-bar bg-secondary"
+          role="progressbar"
+          [style.width.%]="width"
+          aria-valuemin="0"
+          aria-valuemax="100"
+        ></div>
+      </div>
+    </div>
+  </div>
+</div>

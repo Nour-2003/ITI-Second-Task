@@ -1,0 +1,7 @@
+.large-font {
+  font-size: 4rem; /* Adjust the value as needed */
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  font-family: "Times New Roman", Times, serif;
+}

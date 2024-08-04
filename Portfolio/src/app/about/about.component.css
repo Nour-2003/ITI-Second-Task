@@ -1,0 +1,9 @@
+.custom-font {
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem; /* Adjust the value as needed */
+  text-align: center;
+  font-weight: 600;
+}
+.text-shadow {
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
